@@ -1,0 +1,36 @@
+.dashboard {
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  height: 100vh;
+
+  position: fixed;
+  top: 0;
+  left: 0;
+
+  padding-top: 12px;
+
+  background-color: #F9F9FC;
+  border-right: 1px solid rgb(233, 233, 233);
+
+  .user-profile {
+    display: flex;
+    gap: 12px;
+    align-items: center;
+
+    label {
+      justify-content: center;
+    }
+  }
+
+  .contact-list {
+    display: flex;
+    flex-direction: column;
+    margin-top: 42px;
+
+    h1 {
+      padding-left: 20px;
+      margin-bottom: 12px;
+    }
+  }
+}
