@@ -1,0 +1,12 @@
+<div class="contact">
+  <img
+    [src]="contact.profileUrl"
+    alt="Foto de perfil {{ contact.name }}"
+    class="small-profile-img"
+  />
+  <div class="contact-information">
+    <label class="contact-name">{{ contact.name }}</label>
+    <label class="contact-message">{{ contact.lastMessage.message }}</label>
+  </div>
+  <label class="last-message-time">{{ contact.lastMessage.sent_at }}</label>
+</div>

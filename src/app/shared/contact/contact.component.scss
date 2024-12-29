@@ -1,0 +1,41 @@
+.contact {
+  position: relative;
+
+  display: flex;
+  gap: 16px;
+  align-items: center;
+
+  width: 100%;
+
+  padding: 16px 8px 16px 18px;
+
+  border-bottom: 1px solid rgb(233, 233, 233);
+
+  cursor: pointer;
+
+  &:hover {
+    background-color: rgb(245, 245, 245);
+  }
+
+  .contact-information {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+
+    .contact-name {
+      font-size: 1rem;
+      font-weight: 700;
+    }
+
+    .contact-message {
+      font-size: 0.9rem;
+      color: rgb(97, 97, 97);
+    }
+  }
+
+  .last-message-time {
+    position: absolute;
+    top: 18px;
+    right: 6px;
+  }
+}
