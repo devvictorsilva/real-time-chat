@@ -1,15 +1,15 @@
 import { Component } from '@angular/core';
 import { ContactResponse } from '../../core/interfaces/contact';
-import { SharedModule } from '../../shared/shared.module';
+import { SharedModule } from "../../shared/shared.module";
 
 @Component({
-  selector: 'app-chat',
+  selector: 'app-main',
   standalone: true,
   imports: [SharedModule],
-  templateUrl: './chat.component.html',
-  styleUrl: './chat.component.scss'
+  templateUrl: './main.component.html',
+  styleUrl: './main.component.scss'
 })
-export class ChatComponent {
+export class MainComponent {
 
   contactsList: ContactResponse[] = [
     {
