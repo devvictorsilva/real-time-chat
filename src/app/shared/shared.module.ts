@@ -1,16 +1,18 @@
 import { CommonModule } from '@angular/common';
 import { NgModule } from '@angular/core';
 import { ChatComponent } from './chat/chat.component';
-import { ContactComponent } from './contact/contact.component';
+import { InputComponent } from './chat/input/input.component';
+import { ContactComponent } from './dashboard/contact/contact.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
 
 
 
+
 @NgModule({
-  declarations: [DashboardComponent, ChatComponent, ContactComponent],
+  declarations: [DashboardComponent, ChatComponent, ContactComponent, InputComponent],
   imports: [
-    CommonModule
-  ],
-  exports: [DashboardComponent]
+    CommonModule,
+],
+  exports: [DashboardComponent, ChatComponent]
 })
 export class SharedModule { }

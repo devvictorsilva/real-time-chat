@@ -1,5 +1,5 @@
 import { Component, Input } from '@angular/core';
-import { ContactResponse } from '../../core/interfaces/contact';
+import { ContactResponse } from '../../../core/interfaces/contact';
 
 @Component({
   selector: 'chat-contact',
